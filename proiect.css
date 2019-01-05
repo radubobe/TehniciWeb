@@ -1,0 +1,334 @@
+@font-face
+{ font-family: font1;
+  src: url(Kirvy-Regular.otf);
+  
+}
+@font-face
+{font-family: font2;
+src: url(DevilBreezeBook.ttf);
+}
+.container{
+  display:flex;
+flex-direction:column;
+}
+.navigare
+{position:sticky;
+top: 0px;
+}
+
+.ul1
+{
+margin: 0px;
+margin-top:-12px;
+padding: 0px;
+list-style: none;
+}
+
+nav ul li 
+{ 
+background-color:black;
+opacity: .8;
+line-height: 40px;
+ width: 20em;
+ height: 40px;
+text-align: center;
+float: left;
+margin-left: 10px;
+border-radius: 10px;
+margin-top:1px;
+
+
+}
+.a1{ 
+text-decoration: none;
+color: white;
+display: block;
+font-family: font1;
+border-radius: 10px;
+
+  
+  
+}
+ .ul2
+ {margin-left: -10px;
+ }
+ .a3
+{display: none;
+ 
+}
+nav ul li:hover ul li 
+{ display: block;
+  opacity: 0;
+    
+
+     animation: menu 700ms ease-in-out;
+     animation-fill-mode: forwards;
+	  
+}
+   .a
+   {animation-delay: 0ms;
+   }
+   .b
+   {animation-delay: 100ms;
+   }
+   .c{animation-delay: 200ms;
+   }   
+   .d{animation-delay: 300ms;
+   }
+  .e{animation-delay: 400ms;
+   }
+  .f{animation-delay: 0ms;
+   }
+   
+   .g{animation-delay: 100ms;
+    
+   }
+  
+
+@keyframes menu
+  { 0% {opacity: 0;
+  transform:  scale(0.3) rotateX(-90deg);}
+   60% { 
+       transform: rotateX(50deg);}
+    100% {opacity: 1; 
+       transform:scale (1) rotateX(0deg);}	  
+	   }
+  
+nav ul li a:hover{
+	  
+	 background-image: url("metal.jpg");
+}
+ 
+.h1h
+{ font-family: font2;
+ 
+color: white;
+font-size: 2vw;
+ 
+ 
+ 
+}
+.hdr
+{background-image: url("metal.jpg");
+ 
+padding-top: 30px;
+margin-top: -10px;
+padding-left: 20px;
+margin-left: -10px;
+margin-right: -5px;
+}
+
+ 
+
+.video
+{
+position:absolute;
+
+}
+
+
+ .text
+ {
+  color: white;
+  font-family:font1 ;
+  text-align: center;
+  font-size: 115%;
+
+
+ }
+
+ .text2
+ {
+  
+  font-family:font2;
+  text-align: center;
+  font-size: 115%;
+}
+ .ff
+ {column-count: 3;
+ column-rule-style: solid;}
+ 
+ .sp
+ {color:blue;}
+
+ .textbox
+ {
+   margin-top: 30px;
+   border: 2px solid white;
+   
+ }
+
+ 
+ .corp
+ {background-color:white;
+  transition-property: background;
+  transition-timing-function: linear;
+    transition-duration: 2s;
+
+  }
+  body:hover
+ 
+{background-color:black;
+}
+
+ .arsenal
+ {   margin:auo;
+  max-width:100%;
+  width:1350px;
+
+
+ }
+ .contact{
+   margin-top:200px;
+   
+ }
+.fig
+{
+  display: inline-block;
+  overflow: scroll;
+  
+
+   }
+
+   
+
+    .gf
+    {display:flex;}
+.figcap
+{
+  color:red;
+  font-family: font1;
+  text-align: center;
+  font-size:200%;
+}
+.prima
+{margin-left: 100px;
+}
+
+figure:hover
+{ background-image: url("metal.jpg")}
+
+.minge
+{ margin-left:40%;
+  
+   animation: roteste 3s infinite;
+    max-width:10%;
+   opacity: .7;
+ }
+
+@keyframes roteste
+{ 0% { transform: rotate(0deg);
+ }
+  100% {transform: rotate(360deg);
+    } }
+
+.chelsea
+{ margin:auo;
+  max-width:100%;
+  width:1350px;
+}
+.united
+{width: 1340px;
+  max-width:100%;
+  
+}
+@media screen and (max-width : 768px){
+  body {
+        
+    background: url(met.jpg);
+
+}
+ nav ul li{
+   width:5em;
+ }
+ header{
+  margin-bottom: 10%
+}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+    body {
+        
+        background: url(met.jpg);
+
+    }
+    header{
+      margin-bottom: 10%
+    }
+   
+    .column {
+      width: 50%;
+    }
+}
+
+.ftr
+{color:yellow;
+  font-family:font1;
+background:linear-gradient(black, grey);
+opacity:.2;
+}
+
+.city
+{ margin-left: -20px;
+  width: 1360px;
+  max-width:100%;
+ position:relative;
+ z-index: -1;}
+
+.liverpool
+{width: 1340px;
+  max-width:100%;}
+
+#tabel
+{color:white;
+    
+    width: 100%;}
+
+    .td1
+    {border-style: solid;
+    border-color:   blue  white
+  
+  }
+
+    table tr:nth-child(2n) {
+    background: blue;
+    opacity: .5;
+}
+.prop2
+{  width:100%;
+height: 300px;
+}
+.div12 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+
+#par
+{ color:white; }
+.list {
+  
+  border-spacing: 100px;
+  
+}
+.list img {
+ width:95%;
+ height:100%;
+margin-left: 30px;
+
+}
+.list span{
+  margin-left:30px;
+  color:red;
+  font-family:font1;
+  font-size: 115%;
+  
+}
+
+.list > div {
+ align-items:flex-start;
+  
+}
