@@ -2,7 +2,7 @@ window.onload=function() {
 	var table=document.getElementById("tabel");
 	var tr=document.createElement("tr");
 	var td=document.createElement("td");
-	var text=document.createTextNode("Record: " + Math.min(57,47,42) +"m£");
+	var text=document.createTextNode("Record: " + Math.max(57,47,42) +"m£");
 
 	td.appendChild(text);
 	tr.appendChild(td);
